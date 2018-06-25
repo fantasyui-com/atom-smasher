@@ -1,0 +1,20 @@
+{
+  "name": "atom-smasher",
+  "version": "1.0.0",
+  "description": "Reduce a list of uuid tagged objects into a single writable (es6 class) object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/atom-smasher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/atom-smasher/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/atom-smasher#readme"
+}

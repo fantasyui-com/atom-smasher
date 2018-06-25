@@ -1,11 +1,5 @@
-# atom-smasher
-Reduce a list of uuid tagged objects into a single writable (es6 class) object.
-
-Note: 'uuid','version', 'tags' are reserved for atom control
-Note: list is reserved for fetching source records
-
-```JavaScript
-
+const assert = require('assert');
+const program = require('./index.js')({});
 
 const input = [
   { uuid: 'a', title: 'Foobar' },
@@ -37,6 +31,3 @@ Get_DataList_Test : {
   const expected = [ { uuid: 'a', title: 'Wonderland' }, { uuid: 'b', author: 'Alice' } ];
   assert.deepEqual( actual.list , expected );
 }
-
-
-```
